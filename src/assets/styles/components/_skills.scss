@@ -1,0 +1,44 @@
+/* ==========================================================================
+   #SKILLS
+   ========================================================================== */
+
+.c-skills {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    .fab,
+    .fas {
+        font-size: calc(100vh /4);
+        padding:10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .c-skills {
+      flex-direction: row;
+      .fab,
+      .fas {
+          font-size: calc(768px /4);
+          padding:10px;
+      }
+      
+    }
+  }
+
+.c-skills--html5 {
+    color: #ffa500;
+}
+
+.c-skills--css3 {
+    color: #0000ff;
+}
+
+.c-skills--angular {
+    color: #ff0000;
+}
+
+.c-skills--laravel {
+    color: #ffa500;
+}

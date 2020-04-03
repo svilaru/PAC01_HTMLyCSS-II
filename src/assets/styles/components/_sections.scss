@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #SECTIONS
+   ========================================================================== */
+
+   .c-section {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-attachment: fixed;
+
+   }
+
+   .c-section__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .c-section__heading--color {
+     color: $primary-color;
+   }
+
+   .c-section__photo1 {
+    background-image: url('/assets/images/inaki-del-olmo-NIJuEQw0RKg-unsplash.jpg');
+   }
+
+  .c-section__photo2 {
+    background-image: url('/assets/images/cole-keister-vEgVWRBr2VY-unsplash.jpg');
+  }
+
+  .c-section__photo3 {
+    background-image: url('/assets/images/bench-accounting-nvzvOPQW0gc-unsplash.jpg');
+  }
+
+  .c-section__photo4 {
+    background-image: url('/assets/images/luca-bravo-9l_326FISzk-unsplash.jpg');
+  }
+

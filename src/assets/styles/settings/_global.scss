@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #SETTINGS
+   ========================================================================== */
+
+/**
+  *Global:
+  *The global settings file contains any project-wide variables; things that need to be made available to the entire codebase.
+*/
+
+@use "sass:color";
+
+//Fonts
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+//Colors
+$primary-color: #FFFFFF;
+$secondary-color: #424242;
+$contrast-color: #FF8066;
+$bg-menu-color: color.scale($secondary-color, $lightness: 70%);
+$color-link: #FF8066;
+$color-hover: #3E4E59;
+
+
+

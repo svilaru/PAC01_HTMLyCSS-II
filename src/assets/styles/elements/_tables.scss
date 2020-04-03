@@ -1,0 +1,89 @@
+/* ==========================================================================
+   #SETTINGS
+   ========================================================================== */
+
+/**
+  *Tables:
+*/
+
+table {
+  width: 80%;
+  margin: 50px auto 70px;
+  border: 1px solid $secondary-color;
+}
+
+table caption {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+table th {
+  padding: 10px 10px;
+  background: $primary-color;
+  border: 1px solid $secondary-color;
+}
+
+table td {
+  background: $primary-color;
+  padding: 10px 10px;
+  border: 0;
+  border-bottom: 1px solid $secondary-color;
+  border-right: 1px solid $secondary-color;
+  text-align: center;
+}
+
+table thead tr td {
+  background-color: $secondary-color;
+}
+
+table thead tr:first-child th,
+table tbody th {
+  background: $secondary-color;
+  color: $primary-color;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+table thead tr:first-child th {
+  border-right: 1px solid $primary-color;
+}
+
+table thead tr:first-child th:last-child {
+  border-right: none;
+}
+
+table tbody th {
+  border-bottom: 1px solid $secondary-color;
+}
+
+@media screen and (max-width: 600px) {
+
+  table {
+    width:100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr:nth-of-type(2n) {
+    background-color: inherit;
+  }
+
+  tr td:first-child {
+    background: $primary-color;
+    font-weight:bold;
+    font-size:1.3em;
+  }
+
+  tbody td {
+    display: block;
+    text-align:center;
+  }
+
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align:center;
+  }
+}

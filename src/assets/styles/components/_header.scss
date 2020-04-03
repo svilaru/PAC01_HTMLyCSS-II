@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.c-header {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1em;
+  height: 60vh;
+  background-image: url('/assets/images/bench-accounting-nvzvOPQW0gc-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.c-header__heading {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

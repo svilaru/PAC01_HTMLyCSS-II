@@ -1,0 +1,46 @@
+/* ==========================================================================
+   #SETTINGS
+   ========================================================================== */
+
+/**
+  * Forms
+  * Selectors without classes
+*/
+
+form {
+  max-width: 60%;
+  margin: 20px auto;
+}
+
+form small {
+  font-style: italic;
+  color: $primary-color;
+  display: block;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 576px){
+  label {
+    width:35%;
+    margin-right: 10px;
+    text-align: right;
+  }
+}
+
+fieldset div {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    form {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

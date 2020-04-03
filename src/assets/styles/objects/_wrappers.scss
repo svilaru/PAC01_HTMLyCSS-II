@@ -1,0 +1,70 @@
+/* ==========================================================================
+   #OBJECTS
+   ========================================================================== */
+
+/**
+ * Wrapper. Page-level constraining and container elements.
+ * The rules that are going to follow make that the contents inside .o-container adapt to the different devices.
+ */
+
+.o-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.o_container__item {
+  min-height: 40vh;
+}
+
+.o-container-fluid {
+  width: 100%;
+}
+
+.o-container-fluid__item {
+  height: 60vh;
+}
+
+
+@media (min-width: 576px) {
+  .o-container {
+    max-width: 540px;
+  }
+}
+  
+@media (min-width: 768px) {
+  .o-container {
+    max-width: 720px;
+  }
+}
+  
+@media (min-width: 992px) {
+  .o-container {
+    max-width: 960px;
+  }
+}
+
+.o-porfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.o-porfolio__card {
+  padding: 20px;
+}
+
+@media (min-width: 576px) {
+  .o-porfolio {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+  }
+}
+
+
+  

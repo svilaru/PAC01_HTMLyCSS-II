@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #MAIN MENU
+   ========================================================================== */
+
+.c-main-menu {
+  background-color: $contrast-color;
+}
+
+.c-main-menu__list {
+  padding-top:2em;
+  padding-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  .c-main-menu__list--item {
+    display: inline-block;
+    padding:10px;
+    color: $primary-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+      color:$secondary-color;
+      border-bottom: 1px solid $secondary-color;
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  .c-main-menu__list{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
