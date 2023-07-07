@@ -36,7 +36,7 @@
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^2.7.1",
     "sass": "^1.26.3",
-    "stylelint": "^13.2.1",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.16.0"
   },
